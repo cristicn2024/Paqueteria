@@ -26,11 +26,15 @@ import transporte.Transporte;
 import transporte.TransporteFactory;
 
 /**
- *
+ * Clase que genera la demostracion para correr el programa
  * @author crist
  */
 public class Paqueteria {
 
+    /**
+     * Metodo que inicia el programa y recibe los parametros del usuario
+     * @param args
+     */
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

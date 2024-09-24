@@ -9,7 +9,8 @@ import servicio.Servicio;
 import transporte.Transporte;
 
 /**
- * 
+ * Clase para construir objetos de tipo Orden.
+ * Utiliza el patrón Builder para facilitar la creación de instancias de Orden.
  * @author crist
  */
 public class OrdenBuilder {
@@ -20,7 +21,7 @@ public class OrdenBuilder {
     private double distancia;
 
     /**
-     *
+     * Establece el paquete de la orden.
      * @param paquete
      * @return
      */
@@ -30,7 +31,7 @@ public class OrdenBuilder {
     }
 
     /**
-     *
+     * Establece el servicio de la orden.
      * @param servicio
      * @return
      */
@@ -40,7 +41,7 @@ public class OrdenBuilder {
     }
 
     /**
-     *
+     * Establece el transporte de la orden.
      * @param transporte
      * @return
      */
@@ -50,7 +51,7 @@ public class OrdenBuilder {
     }
 
     /**
-     *
+     * Establece la distancia de la orden.
      * @param distancia
      * @return
      */
@@ -60,7 +61,7 @@ public class OrdenBuilder {
     }
 
     /**
-     *
+     * Construye y devuelve una instancia de Orden.
      * @return
      */
     public Orden build() {
