@@ -5,9 +5,14 @@
 package servicio;
 
 /**
- *
+ * Interfaz para cada tipo de servicio
  * @author crist
  */
 public interface Servicio {
+
+    /**
+     *
+     * @return
+     */
     public Double obtenerPrecioBase();
 }

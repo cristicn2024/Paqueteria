@@ -5,15 +5,27 @@
 package paquete;
 
 /**
- *
+ * Clase padre abstracta del paquete
  * @author crist
  */
 public abstract class Paquete {
+
+    /**
+     * atributo precio base
+     */
     protected Double precioBase;
     
+    /**
+     * Constructor del paquete
+     * @param precioBase
+     */
     public Paquete(double precioBase) {
         this.precioBase = precioBase;
     }
 
+    /**
+     * Metodo que obtendar todas sus clases hijas
+     * @return
+     */
     public abstract double calcularPrecio();
 }

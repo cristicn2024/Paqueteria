@@ -5,12 +5,16 @@
 package paquete;
 
 /**
- *
+ * Subclase caja pequeña de la super clase Paquete
  * @author crist
  */
 public class CajaPequeña extends Paquete{
      private static final double costoAdicional = 10.0; 
 
+    /**
+     * Constructor de la caja pequeña con el precio base del paquete
+     * @param precioBase
+     */
     public CajaPequeña(double precioBase) {
         super(precioBase);
     }
