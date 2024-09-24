@@ -9,6 +9,7 @@ package transporte;
  * @author crist
  */
 public class TransporteFactory {
+    
     public static Transporte crearTransporte(String tipo) {
         switch (tipo.toLowerCase()) {
             case "bicicleta":
@@ -23,4 +24,5 @@ public class TransporteFactory {
                 throw new IllegalArgumentException("Tipo de transporte no válido");
         }
     }
+    
 }

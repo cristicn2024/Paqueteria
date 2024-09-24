@@ -9,5 +9,5 @@ package servicio;
  * @author crist
  */
 public interface Servicio {
-    
+    public double calcularCosto(double distancia);
 }
