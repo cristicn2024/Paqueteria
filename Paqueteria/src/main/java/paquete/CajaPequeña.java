@@ -9,7 +9,7 @@ package paquete;
  * @author crist
  */
 public class CajaPequeña extends Paquete{
-     private static final double costoAdicional = 10.0; // Pesos
+     private static final double costoAdicional = 10.0; 
 
     public CajaPequeña(double precioBase) {
         super(precioBase);

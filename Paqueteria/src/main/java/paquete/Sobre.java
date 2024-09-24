@@ -9,7 +9,7 @@ package paquete;
  * @author crist
  */
 public class Sobre  extends Paquete{
-    private static final double costoAdicional = 5.0; // Pesos
+    private static final double costoAdicional = 5.0; 
 
     public Sobre(double precioBase) {
         super(precioBase);

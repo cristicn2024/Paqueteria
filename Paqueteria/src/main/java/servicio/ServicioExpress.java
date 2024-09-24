@@ -9,7 +9,7 @@ package servicio;
  * @author crist
  */
 public class ServicioExpress implements Servicio{
-     private static final double precioBase = 30.0;
+     private static final double precioBase = 50.0;
 
     public ServicioExpress() {
     }
