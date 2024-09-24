@@ -14,9 +14,11 @@ public class ServicioEstandar implements Servicio{
     public ServicioEstandar() {
     }
 
-    
     @Override
-    public Double calcularCosto(Double distancia) {
-        return precioBase;
+    public Double obtenerPrecioBase() {
+      return precioBase;
     }
+
+    
+    
 }

@@ -14,9 +14,10 @@ public class ServicioExpress implements Servicio{
     public ServicioExpress() {
     }
 
-     
     @Override
-    public Double calcularCosto(Double distancia) {
+    public Double obtenerPrecioBase() {
         return precioBase;
     }
+
+    
 }
