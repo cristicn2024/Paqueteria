@@ -72,9 +72,11 @@ public class Paqueteria {
                 if (enDolares) {
                     Moneda dolarAdaptado = new PesoADolarAdapter(new Peso(costoTotal));
                     costoTotal = dolarAdaptado.obtenerMonto();
-                    System.out.printf("El costo total de la orden es: %.2f USD, se entregará en %s y se tardará aproximadamente %.2f minutos.%n", costoTotal, transporte.getClass().getSimpleName(), tiempoEstimado);
+                    System.out.printf("El costo total de la orden es: %.2f USD, se entregará en %s y se tardará aproximadamente %.2f minutos.%n", 
+                            costoTotal, transporte.getClass().getSimpleName(), tiempoEstimado);
                 } else {
-                    System.out.printf("El costo total de la orden es: %.2f pesos, se entregará en %s y se tardará aproximadamente %.2f minutos.%n", costoTotal, transporte.getClass().getSimpleName(), tiempoEstimado);
+                    System.out.printf("El costo total de la orden es: %.2f pesos, se entregará en %s y se tardará aproximadamente %.2f minutos.%n", 
+                            costoTotal, transporte.getClass().getSimpleName(), tiempoEstimado);
                 }
 
                 continuar = false;

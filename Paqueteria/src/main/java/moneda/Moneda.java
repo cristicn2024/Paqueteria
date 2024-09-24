@@ -5,9 +5,14 @@
 package moneda;
 
 /**
- *
+ * Interfaz Moneda para las clases adapter
  * @author crist
  */
 public interface Moneda {
+
+    /**
+     * metodo que regresa el monto
+     * @return
+     */
     public Double obtenerMonto();
 }
