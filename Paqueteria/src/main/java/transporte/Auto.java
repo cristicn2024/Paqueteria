@@ -5,12 +5,15 @@
 package transporte;
 
 /**
- *
+ * Clase entidad de auto que implementa la interfaz Transporte
  * @author crist
  */
 public class Auto implements Transporte{
      private Double velocidad = 40.0, costoAdicional = 30.0;
 
+    /**
+     * Constructor del auto
+     */
     public Auto() {
     }
 

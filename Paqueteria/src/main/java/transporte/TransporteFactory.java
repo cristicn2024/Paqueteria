@@ -5,11 +5,16 @@
 package transporte;
 
 /**
- *
+ * Clase factory de para crear los transportes
  * @author crist
  */
 public class TransporteFactory {
     
+    /**
+     * Metodo que crea los transportes utilizando la interfaz Transporte
+     * @param tipo
+     * @return
+     */
     public static Transporte crearTransporte(String tipo) {
         switch (tipo.toLowerCase()) {
             case "bicicleta":

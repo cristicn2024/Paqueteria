@@ -5,12 +5,15 @@
 package transporte;
 
 /**
- *
+ * Clase entidad de la bicicleta que implementa la interfaz Transporte
  * @author crist
  */
 public class Bicicleta implements Transporte{
     private Double velocidad = 20.0, costoAdicional = 5.0;
 
+    /**
+     * Constructor de la bicicleta
+     */
     public Bicicleta() {
     }
 

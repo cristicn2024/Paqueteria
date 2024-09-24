@@ -5,12 +5,15 @@
 package transporte;
 
 /**
- *
+ * Clase de la entidad dron que utiliza la interfaz transporte
  * @author crist
  */
 public class Dron implements Transporte{
      private Double velocidad = 60.0, costoAdicional = 20.0;
 
+    /**
+     * Contructor del dron
+     */
     public Dron() {
     }
 

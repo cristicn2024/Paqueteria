@@ -5,9 +5,15 @@
 package transporte;
 
 /**
- *
+ * Interfaz con el metodo que usan todos los tipos de transportes creados y por crear
  * @author crist
  */
 public interface Transporte {
-   public double calcularCosto( Double distancia);
+
+    /**
+     * Metodo que calcula el costo del transporte
+     * @param distancia
+     * @return
+     */
+    public double calcularCosto( Double distancia);
 }

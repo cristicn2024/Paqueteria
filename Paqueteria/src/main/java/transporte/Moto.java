@@ -5,12 +5,15 @@
 package transporte;
 
 /**
- *
+ * Clase entidad de moto que implementa la interfaz Transporte
  * @author crist
  */
 public class Moto implements Transporte{
      private Double velocidad = 45.0, costoAdicional = 15.0;
 
+    /**
+     * Consturctor de la moto
+     */
     public Moto() {
     }
 
