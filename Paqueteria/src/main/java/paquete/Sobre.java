@@ -8,6 +8,15 @@ package paquete;
  *
  * @author crist
  */
-public class Sobre {
-    
+public class Sobre  extends Paquete{
+    private static final double costoAdicional = 5.0; // Pesos
+
+    public Sobre(double precioBase) {
+        super(precioBase);
+    }
+
+    @Override
+    public double calcularPrecio() {
+        return precioBase + costoAdicional;
+    }
 }

@@ -8,6 +8,15 @@ package paquete;
  *
  * @author crist
  */
-public class CajaPequeña {
-    
+public class CajaPequeña extends Paquete{
+     private static final double costoAdicional = 10.0; // Pesos
+
+    public CajaPequeña(double precioBase) {
+        super(precioBase);
+    }
+
+    @Override
+    public double calcularPrecio() {
+        return precioBase + costoAdicional;
+    }
 }

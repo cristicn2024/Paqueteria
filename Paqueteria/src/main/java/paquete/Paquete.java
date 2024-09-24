@@ -8,6 +8,12 @@ package paquete;
  *
  * @author crist
  */
-public class Paquete {
+public abstract class Paquete {
+    protected Double precioBase;
     
+    public Paquete(double precioBase) {
+        this.precioBase = precioBase;
+    }
+
+    public abstract double calcularPrecio();
 }
